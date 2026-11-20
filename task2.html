@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArenaX Gaming Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #202020;
+    padding: 22px;
+    text-align: center;
+    border-bottom: 3px solid #ff4500;
+}
+
+.logo {
+    color: #ff4500;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+/* Home Section */
+.home {
+    background: linear-gradient(to right, #350d0d, #151515);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h1 {
+    color: #ff4500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ff4500;
+    color: white;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #cc3700;
+}
+
+/* Sections */
+section {
+    padding: 50px 7%;
+}
+
+.heading {
+    color: #ff4500;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Game Cards */
+.container {
+    text-align: center;
+}
+
+.game {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #202020;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.game h3 {
+    color: #ff4500;
+    margin: 15px;
+}
+
+.game-icon {
+    font-size: 50px;
+}
+
+.game:hover {
+    background-color: #303030;
+}
+
+/* Tournament */
+.event {
+    background-color: #202020;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-left: 5px solid #ff4500;
+    border-radius: 5px;
+}
+
+.event h3 {
+    color: #ff4500;
+    margin-bottom: 12px;
+}
+
+.event p {
+    margin: 7px;
+}
+
+/* Team Section */
+.team {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #202020;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.team h3 {
+    color: #ff4500;
+    margin: 12px;
+}
+
+/* Player Section */
+.player {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #202020;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.player h3 {
+    color: #ff4500;
+    margin: 12px;
+}
+
+/* Leaderboard */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #202020;
+}
+
+th {
+    background-color: #ff4500;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+tr:hover {
+    background-color: #333333;
+}
+
+/* News */
+.article {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: #202020;
+    padding: 22px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.article h3 {
+    color: #ff4500;
+    margin-bottom: 15px;
+}
+
+/* Contact */
+.contact {
+    background-color: #202020;
+    text-align: center;
+}
+
+.contact p {
+    margin: 12px;
+}
+
+/* Footer */
+footer {
+    background-color: #080808;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 25px;
+    border-top: 3px solid #ff4500;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">🔥 ARENAX GAMING</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#events">Events</a>
+        <a href="#teams">Teams</a>
+        <a href="#players">Players</a>
+        <a href="#ranking">Ranking</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home -->
+<section class="home" id="home">
+
+    <h1>ENTER THE GAMING WORLD</h1>
+
+    <p>
+        Discover New Games, Join Esports Battles
+        and Show Your Gaming Skills.
+    </p>
+
+    <a href="#games" class="button">Explore Now</a>
+
+</section>
+
+<!-- Popular Games -->
+<section id="games">
+
+    <h2 class="heading">POPULAR GAMES</h2>
+
+    <div class="container">
+
+        <div class="game">
+            <div class="game-icon">🎯</div>
+            <h3>Call of Duty</h3>
+            <p>Action and Multiplayer Shooting Game</p>
+        </div>
+
+        <div class="game">
+            <div class="game-icon">🛡️</div>
+            <h3>Clash of Clans</h3>
+            <p>Strategy and Village Building Game</p>
+        </div>
+
+        <div class="game">
+            <div class="game-icon">🏆</div>
+            <h3>Fortnite</h3>
+            <p>Battle Royale and Survival Game</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Tournaments -->
+<section id="events">
+
+    <h2 class="heading">GAMING TOURNAMENTS</h2>
+
+    <div class="event">
+        <h3>Call of Duty Championship</h3>
+        <p>Date: 15 December 2026</p>
+        <p>Prize Money: ₹60,000</p>
+        <p>Participants: 32 Teams</p>
+        <p>Status: Registration Open</p>
+    </div>
+
+    <div class="event">
+        <h3>Fortnite Battle Arena</h3>
+        <p>Date: 20 December 2026</p>
+        <p>Prize Money: ₹40,000</p>
+        <p>Participants: 50 Players</p>
+        <p>Status: Coming Soon</p>
+    </div>
+
+    <div class="event">
+        <h3>Clash of Clans League</h3>
+        <p>Date: 25 December 2026</p>
+        <p>Prize Money: ₹25,000</p>
+        <p>Participants: 20 Teams</p>
+        <p>Status: Registration Open</p>
+    </div>
+
+</section>
+
+<!-- Teams -->
+<section id="teams">
+
+    <h2 class="heading">ESPORTS TEAMS</h2>
+
+    <div class="container">
+
+        <div class="team">
+            <div class="game-icon">🐺</div>
+            <h3>Wolf Warriors</h3>
+            <p>Game: Call of Duty</p>
+            <p>Members: 5</p>
+        </div>
+
+        <div class="team">
+            <div class="game-icon">🦅</div>
+            <h3>Eagle Fighters</h3>
+            <p>Game: Fortnite</p>
+            <p>Members: 4</p>
+        </div>
+
+        <div class="team">
+            <div class="game-icon">🐉</div>
+            <h3>Dragon Squad</h3>
+            <p>Game: Clash of Clans</p>
+            <p>Members: 5</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Players -->
+<section id="players">
+
+    <h2 class="heading">TOP GAMERS</h2>
+
+    <div class="container">
+
+        <div class="player">
+            <div class="game-icon">🎮</div>
+            <h3>Alex</h3>
+            <p>Game: Call of Duty</p>
+            <p>Level: Expert</p>
+        </div>
+
+        <div class="player">
+            <div class="game-icon">🎮</div>
+            <h3>Ryan</h3>
+            <p>Game: Fortnite</p>
+            <p>Level: Professional</p>
+        </div>
+
+        <div class="player">
+            <div class="game-icon">🎮</div>
+            <h3>David</h3>
+            <p>Game: Clash of Clans</p>
+            <p>Level: Advanced</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Leaderboard -->
+<section id="ranking">
+
+    <h2 class="heading">TOP PLAYER RANKINGS</h2>
+
+    <table>
+
+        <tr>
+            <th>Rank</th>
+            <th>Player Name</th>
+            <th>Game</th>
+            <th>Score</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Alex</td>
+            <td>Call of Duty</td>
+            <td>9800</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ryan</td>
+            <td>Fortnite</td>
+            <td>8500</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>David</td>
+            <td>Clash of Clans</td>
+            <td>7900</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Mark</td>
+            <td>Call of Duty</td>
+            <td>7200</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<!-- Gaming News -->
+<section id="news">
+
+    <h2 class="heading">LATEST GAMING NEWS</h2>
+
+    <div class="container">
+
+        <div class="article">
+            <h3>New Gaming Championship</h3>
+            <p>
+                ArenaX is organizing a new esports
+                championship with exciting rewards
+                for gaming enthusiasts.
+            </p>
+        </div>
+
+        <div class="article">
+            <h3>New Game Releases</h3>
+            <p>
+                Several exciting games are expected
+                to bring new challenges and features
+                for players.
+            </p>
+        </div>
+
+        <div class="article">
+            <h3>Esports Team Updates</h3>
+            <p>
+                Professional gaming teams are
+                preparing for upcoming competitions
+                and international events.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+
+    <h2 class="heading">CONTACT US</h2>
+
+    <p>Email: arenaxgaming@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: India</p>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+    <h3>🔥 ARENAX GAMING COMMUNITY</h3>
+
+    <p>Play Hard | Stay Strong | Become a Champion</p>
+
+    <p>© 2026 ArenaX Gaming. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
